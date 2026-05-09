@@ -1,7 +1,7 @@
-import React from 'react'
 
-export default function Button() {
+
+export default function Button({name , onClick , className}) {
   return (
-    <div>Button</div>
+    <button onClick={onClick} className={`${className} cursor-pointer transition-all text-white/75 duration-500 `}>{name}</button>
   )
 }
