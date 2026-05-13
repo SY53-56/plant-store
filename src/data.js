@@ -4,8 +4,10 @@ import SansevieriaPlant from "./assets/images/Sansevieria plant.png";
 import AgavePlant from "./assets/images/Agave plant.png";
 import PlantainLilies from "./assets/images/Plantain Lilies.png";
 import AglaonemaPlant from "./assets/images/Rose Gold Feminine Calligraphy Monogram Logo(15) 3.png";
-
-const topPlantSell = [
+import ShellyRussel from"./assets/images/reviewimg2.png"
+import  LulaRolfson from "./assets/images/reviewimg3.jpg"
+import CarolHuels from "./assets/images/reviewimg4.png"
+ export const topPlantSell = [
   {
     img: AglaonemaPlant,
     title: "Aglaonema plant",
@@ -54,5 +56,24 @@ const topPlantSell = [
     price: 359,
   },
 ];
+export const plantReview = [
+    {
+        img:ShellyRussel,
+        name:"Shelly Russel",
+        star:4.5,
+       review:"Just got my hands on some absolutely awesome plants, and I couldn’t be happier!",
 
-export default topPlantSell;
+    },
+    {
+        img:LulaRolfson,
+        name:"Lula Rolfson",
+        star:4.5,
+        review:"Each one has its own unique charm and personality, and they’ve already started brightening up my space. The vibrant colors and fresh greenery make such a huge difference in my home."
+    },
+    {
+        img:CarolHuels,
+        name:"Carol Huels",
+        star:4.5,
+        review:"It's like bringing a little piece of nature indoors. Definitely worth the investment—my plant collection has never looked better!"
+    }
+]
