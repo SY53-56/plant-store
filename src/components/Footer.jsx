@@ -21,6 +21,7 @@ export default function Footer() {
         
         <div className="flex items-center">
           <img
+          loading="lazy"
             className="w-20 md:w-24"
             src={logo}
             alt="logo"

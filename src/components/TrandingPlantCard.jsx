@@ -111,7 +111,7 @@ export default function TrandingPlantCard({
           className="
             w-[250px]
             md:w-[340px]
-            lg:w-[450px]
+            lg:w-[450px] *
             object-contain
             absolute
             lg:-top-4 
@@ -119,6 +119,7 @@ export default function TrandingPlantCard({
             min-[833px]:max-[1200px]:top-3
             drop-shadow-2xl
           "
+          loading="lazy"
           src={img}
           alt="Plant"
         />

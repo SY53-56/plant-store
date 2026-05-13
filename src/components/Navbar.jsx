@@ -36,6 +36,7 @@ export default function Navbar() {
           <img
             className="w-16 object-contain"
             src={logo}
+            loading="lazy"
             alt="Logo"
           />
 

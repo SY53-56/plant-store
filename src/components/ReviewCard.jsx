@@ -34,6 +34,7 @@ export default function ReviewCard({
             rounded-full
             object-cover
           "
+          loading="lazy"
           src={img}
           alt={name}
         />
