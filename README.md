@@ -12,7 +12,7 @@ A modern and responsive Plant Store landing page built using **React.js** and **
 
 ## 📂 GitHub Repository
 
-https://github.com/your-username/plant-store
+https://github.com/SY53-56/plant-store
 
 ---
 
